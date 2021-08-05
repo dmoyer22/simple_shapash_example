@@ -1,0 +1,32 @@
+General information:
+  version: 0.1
+  name: Medium shapash example
+  purpose: tutorial
+  date: auto
+  contributors: dawn oyer
+  description: Simple tutorial of shapash.
+  source code: https://github.com/tbd
+  Git commit: 
+
+Dataset information:
+  path: https://www.kaggle.com/shwetabh123/mall-customers
+  origin: tbd
+  description: small sample of spending scores
+  depth: tbd
+  perimeter: tbd
+  target variable: Spending Score (1-100)
+  target description: Spending Score
+
+Data Preparation:
+  variable filetring: tbd
+  individual filtering: tbd
+  missing values: na
+  Feature engineering: Categorical features were transformed using an ordinal encoder.
+  Path to script: tbd
+
+Model training:
+  Used algorithm: We used a RandomForestRegressor algorithm (scikit-learn) but this model could be challenged with other interesting models such as XGBRegressor, Neural Networks, ...
+  Parameters choice: We did not perform any hyperparameter optimisation and chose to use `n_estimators=50`. Future works should be planned to perform gridsearch optimizations
+  Metrics: Mean Squared Error metric
+  Validation strategy: We splitted our data into train (60%) and test (40%)
+  Path to script: tbd
